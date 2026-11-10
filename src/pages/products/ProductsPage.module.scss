@@ -1,0 +1,75 @@
+.thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #C4C4C4;
+    background-color: #C4C4C4;
+}
+
+.lowRateRow {
+    .lowRate {
+        color: #ff6666 !important;
+    }
+}
+
+.add_button {
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 6px;
+}
+
+
+.search {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.head_all_position {
+    color: #333333;
+    font-size: 1.12em;
+    font-weight: 600;
+}
+
+.product_table {
+    font-size: 0.9em;
+}
+.category {
+    color:#B2B3B9;
+    font-size: 0.9em;
+}
+
+.column_category {
+    font-weight: 600;
+}
+.column_rating, .column_price {
+    font-family: 'RobotoMono';
+}
+.column_price {
+    span {
+        color: #999;
+    }
+}
+.btn_plus {
+    padding: 3px 0;
+    width: 52px;
+}
+
+.paginator_info {
+    font-family: "Inter";
+    font-size: 1em;
+
+    span { color: #000;}
+}
+.paginator {
+    margin-top: 50px;
+    width: 100%;
+    justify-content:end;
+    font-family: 'RobotoMono';
+    :global(.p-link) {
+        font-size: 0.8em;
+    }
+    
+}
